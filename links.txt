@@ -1,0 +1,5 @@
+https://api.football-data.org/v1/teams/57/players
+
+https://www.w3schools.com/jquery/jquery_ajax_intro.asp 
+
+https://codepen.io/zackahl/pen/EmVNvN
