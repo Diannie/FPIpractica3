@@ -2,22 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Football</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel=icon href="favicon.png" type="image/png">
   </head>
   <body>
-    <div id="dropdowns">
-    <select id="ligas">
-    </select>
+    <div class="container text-center jumbotron">
+      <h1>Selecciona y ve la información de las ligas, equipos y jugadores</h1>
+    </div>
+    <div class="container" id="dropdowns">
+      <br>
+      <label class="input-group-addon">Liga:</label>
+      <select class="form-control" id="ligas">
+      </select>
+      <br>
+      <label class="input-group-addon">Equipo:</label>
+      <select class="form-control" id="equipo">
+      </select>
+    </div>
 
-    <select id="equipo">
-    </select>
-  </div>
-
-    <div class="row" id="jugadores">
-	      <div class="col-md-12 col-lg-4">Column 1</div>
-	      <div class="col-md-12 col-lg-4">Column 2</div>
-	      <div class="col-md-12 col-lg-4">Column 3</div>
-       </div>
-
+    <div class="container text-center">
+      <br>
+      <label class="input-group-addon">Jugadores:</label>
+      <div class="row" id="jugadores">
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor..</p>
+          <p>Ut enim ad..</p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Column 1</h3>
+          <p>Lorem ipsum dolor..</p>
+          <p>Ut enim ad..</p>
+        </div>
+      </div>
+    </div>
+  <script src="practica3.js"></script>
   </body>
 </html>
